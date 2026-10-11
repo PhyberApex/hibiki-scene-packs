@@ -1,0 +1,69 @@
+{
+  "name": "Cozy Tavern",
+  "slug": "cozy-tavern",
+  "description": "A warm tavern with crackling fire, gentle chatter, and a bard playing in the corner. Perfect for social encounters and downtime.",
+  "author": "PhyberApex",
+  "version": "1.1.0",
+  "tags": ["tavern", "social", "ambient", "fantasy", "example", "cc0"],
+  "category": "environment",
+  "license": "CC0-1.0",
+  "audioBundled": false,
+  "createdAt": "2026-03-18T00:00:00Z",
+  "updatedAt": "2026-10-11T00:00:00Z",
+  "scene": {
+    "music": [
+      {
+        "soundName": "Tavern Bard",
+        "volume": 60,
+        "loop": true,
+        "source": {
+          "name": "Medieval: King's Feast by RandomMind",
+          "url": "https://opengameart.org/content/medieval-kings-feast",
+          "note": "CC0, no attribution required. Download Loop_Kings_Feast.wav. Any gentle bard or lute tavern music works."
+        }
+      }
+    ],
+    "ambience": [
+      {
+        "soundName": "Crackling Fireplace",
+        "volume": 45,
+        "enabled": true,
+        "source": {
+          "name": "Fireplace.wav by inchadney",
+          "url": "https://freesound.org/people/inchadney/sounds/132534/",
+          "note": "CC0. 4-minute fireplace recording. Any fireplace or campfire loop works."
+        }
+      },
+      {
+        "soundName": "Tavern Chatter",
+        "volume": 30,
+        "enabled": true,
+        "source": {
+          "name": "Ambience_Bar_No_Music.wav by Dokuta_Gerovv",
+          "url": "https://freesound.org/people/Dokuta_Gerovv/sounds/661686/",
+          "note": "CC0. 41-second low background crowd murmur."
+        }
+      }
+    ],
+    "effects": [
+      {
+        "soundName": "Tavern Door",
+        "volume": 70,
+        "source": {
+          "name": "Door, Church, Close, E.wav by InspectorJ",
+          "url": "https://freesound.org/people/InspectorJ/sounds/339677/",
+          "note": "CC BY 4.0: credit 'InspectorJ (freesound.org)' if you redistribute a recording of your session. Any heavy wooden door works."
+        }
+      },
+      {
+        "soundName": "Mug Slam",
+        "volume": 65,
+        "source": {
+          "name": "Mug slam and slosh.mp3 by Gingie",
+          "url": "https://freesound.org/people/Gingie/sounds/345599/",
+          "note": "CC0. Mug or tankard hitting a wooden table."
+        }
+      }
+    ]
+  }
+}

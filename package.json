@@ -1,0 +1,13 @@
+{
+  "name": "hibiki-scene-packs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ready-to-import scene packs for Hibiki with CC0 audio",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-packs.mjs"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  }
+}
